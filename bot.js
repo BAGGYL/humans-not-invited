@@ -63,7 +63,7 @@ $(".button").click(function () {
 				"success" == t.status ? (console.log(t),
 					$(".message-success").show(),
 					clearInterval(interval),
-					alert("А Шамрай молодец, я смог подобрать! Дальше я не в курсе что будет)"),
+					alert("А Я молодец, я смог подобрать! Дальше я не в курсе что будет)"),
 					"" == t.content ? $(".success-first").show() : $(".success-following").show(),
 					$("ul").append(t.content)) : $(".message-error").show()
 			})
